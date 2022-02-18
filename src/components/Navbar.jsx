@@ -4,7 +4,7 @@ import { useScrollPosition } from "../hooks/useScrollPosition";
 import useResizeObserver from "../hooks/useResizeObserver";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { mainBody, repos, about, skills } from "../editable-stuff/config.js";
+import { mainBody, repos, about, skills, leadership, experiences, getInTouch } from "../editable-stuff/config.js";
 
 const Navigation = React.forwardRef((props, ref) => {
   // const { showBlog, FirstName } = config;
@@ -50,12 +50,12 @@ const Navigation = React.forwardRef((props, ref) => {
               <Link to={process.env.PUBLIC_URL + "/blog"}>Blog</Link>
             </Nav.Link>
           } */}
-          {repos.show && (
+          {about.show && (
             <Nav.Link
               className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#projects"}
+              href={process.env.PUBLIC_URL + "/#aboutme"}
             >
-              Projects
+              <b>About</b>
             </Nav.Link>
           )}
           <Nav.Link
@@ -64,22 +64,46 @@ const Navigation = React.forwardRef((props, ref) => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            Resume
+            <b>Resume</b>
           </Nav.Link>
-          {about.show && (
-            <Nav.Link
-              className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#aboutme"}
-            >
-              About
-            </Nav.Link>
-          )}
           {skills.show && (
             <Nav.Link
               className="nav-link lead"
               href={process.env.PUBLIC_URL + "/#skills"}
             >
-              Skills
+              <b>Skills</b>
+            </Nav.Link>
+          )}
+          {repos.show && (
+            <Nav.Link
+              className="nav-link lead"
+              href={process.env.PUBLIC_URL + "/#projects"}
+            >
+              <b>Projects</b>
+            </Nav.Link>
+          )}
+          {experiences.show && (
+            <Nav.Link
+              className="nav-link lead"
+              href={process.env.PUBLIC_URL + "/#experiences"}
+            >
+              <b>Experience</b>
+            </Nav.Link>
+          )}
+          {leadership.show && (
+            <Nav.Link
+              className="nav-link lead"
+              href={process.env.PUBLIC_URL + "/#leadership"}
+            >
+              <b>Leadership</b>
+            </Nav.Link>
+          )}
+          {getInTouch.show && (
+            <Nav.Link
+              className="nav-link lead"
+              href={process.env.PUBLIC_URL + "/#contact"}
+            >
+              <b>Contact</b>
             </Nav.Link>
           )}
         </Nav>

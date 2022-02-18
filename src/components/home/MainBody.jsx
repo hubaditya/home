@@ -33,7 +33,7 @@ const MainBody = React.forwardRef(
                 href={icon.url}
                 aria-label={`My ${icon.image.split("-")[1]}`}
               >
-                <i className={`fab ${icon.image}  fa-3x socialicons`} />
+                <i className={`${icon.image}`} />
               </a>
             ))}
           </div>

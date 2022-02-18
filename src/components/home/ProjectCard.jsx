@@ -27,7 +27,7 @@ const ProjectCard = ({ value }) => {
             <Skeleton count={3} />
           )}
           {value ? (
-            <CardFooter star_count={stargazers_count} repo_url={svn_url} pushed_at={pushed_at} />
+            <CardFooter repo_url={svn_url} pushed_at={pushed_at} />
           ) : (
             <Skeleton />
           )}
