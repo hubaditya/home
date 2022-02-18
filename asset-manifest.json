@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.e16032d7.chunk.css",
-    "main.js": "/home/static/js/main.27c6d92e.chunk.js",
-    "main.js.map": "/home/static/js/main.27c6d92e.chunk.js.map",
-    "runtime-main.js": "/home/static/js/runtime-main.3c590061.js",
-    "runtime-main.js.map": "/home/static/js/runtime-main.3c590061.js.map",
-    "static/js/2.3400e9ff.chunk.js": "/home/static/js/2.3400e9ff.chunk.js",
-    "static/js/2.3400e9ff.chunk.js.map": "/home/static/js/2.3400e9ff.chunk.js.map",
-    "index.html": "/home/index.html",
-    "precache-manifest.df84cd9571af5c9c3b4e97876ee49e51.js": "/home/precache-manifest.df84cd9571af5c9c3b4e97876ee49e51.js",
-    "service-worker.js": "/home/service-worker.js",
-    "static/css/main.e16032d7.chunk.css.map": "/home/static/css/main.e16032d7.chunk.css.map",
-    "static/js/2.3400e9ff.chunk.js.LICENSE.txt": "/home/static/js/2.3400e9ff.chunk.js.LICENSE.txt",
-    "static/media/hashirshoaeb.png": "/home/static/media/hashirshoaeb.32f6b574.png",
-    "static/media/resume.pdf": "/home/static/media/resume.9d3da0e2.pdf"
+    "main.css": "/static/css/main.956fad23.chunk.css",
+    "main.js": "/static/js/main.24956e68.chunk.js",
+    "main.js.map": "/static/js/main.24956e68.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.554504a0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.554504a0.js.map",
+    "static/js/2.9e51c511.chunk.js": "/static/js/2.9e51c511.chunk.js",
+    "static/js/2.9e51c511.chunk.js.map": "/static/js/2.9e51c511.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b3543b15b7e72a965bb11c65185a5693.js": "/precache-manifest.b3543b15b7e72a965bb11c65185a5693.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.956fad23.chunk.css.map": "/static/css/main.956fad23.chunk.css.map",
+    "static/js/2.9e51c511.chunk.js.LICENSE.txt": "/static/js/2.9e51c511.chunk.js.LICENSE.txt",
+    "static/media/cincinnatireds-icon.png": "/static/media/cincinnatireds-icon.1ca0ce94.png",
+    "static/media/dp.jpeg": "/static/media/dp.99fe0fb4.jpeg",
+    "static/media/essenceglobal-icon.png": "/static/media/essenceglobal-icon.4942ac2d.png",
+    "static/media/resume.pdf": "/static/media/resume.f81f9b9c.pdf",
+    "static/media/unyscape-icon.png": "/static/media/unyscape-icon.89ea113c.png",
+    "static/media/wiseradvisor-icon.png": "/static/media/wiseradvisor-icon.21d1b846.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3c590061.js",
-    "static/js/2.3400e9ff.chunk.js",
-    "static/css/main.e16032d7.chunk.css",
-    "static/js/main.27c6d92e.chunk.js"
+    "static/js/runtime-main.554504a0.js",
+    "static/js/2.9e51c511.chunk.js",
+    "static/css/main.956fad23.chunk.css",
+    "static/js/main.24956e68.chunk.js"
   ]
 }
